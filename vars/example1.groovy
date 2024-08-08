@@ -7,7 +7,7 @@ def call(String name = "Alice") {
 }
 
 def print_msg(String msg = 'Hello') {
-    script {
+    return script {
         sh "echo ${msg}"
     }
 }
